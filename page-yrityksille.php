@@ -397,11 +397,6 @@
           ><br/><br/>
           <p class="card-title"><strong><?php echo $excursiovastaava['title_fi']; ?></strong></p>
           <p class="card-title"><?php echo $excursiovastaava['display_name']; ?></p>
-          <p class="card-title">
-            <a href="mailto:<?php echo $excursiovastaava["email"]; ?>">
-              <?php echo $excursiovastaava["email"]; ?>
-            </a>
-          </p>
         </div>
         <div class="col-xl-3 col-8 order-1 order-xl-2 text-center text-justify fig">
            <img class="rounded-circle img-fluid"
